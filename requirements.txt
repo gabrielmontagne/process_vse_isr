@@ -1,0 +1,5 @@
+ISR==2.2.0
+nose
+bumpversion
+pep8
+pylint
