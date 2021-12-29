@@ -6,6 +6,8 @@ Connects https://github.com/idealo/image-super-resolution
 with https://github.com/gabrielmontagne/blender-addon-process-vse-strip
 using https://github.com/gabrielmontagne/xyy.
 
+image::example.png[Example]
+
 To use, install the dependencies from xyy, create a TF 2.0.0 environment and run the server:
 
 ----
@@ -16,3 +18,4 @@ optional arguments:
   -h, --help            show this help message and exit
   --weights {psnr-large,psnr-small,noise-cancel,gans}
 ----
+
