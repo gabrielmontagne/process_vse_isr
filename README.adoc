@@ -9,11 +9,10 @@ using https://github.com/gabrielmontagne/xyy.
 To use, install the dependencies from xyy, create a TF 2.0.0 environment and run the server:
 
 ----
-usage: process_vse_isr [-h] [weights]
-
-positional arguments:
-  weights
+usage: process_vse_isr [-h]
+                       [--weights {psnr-large,psnr-small,noise-cancel,gans}]
 
 optional arguments:
-  -h, --help  show this help message and exit
+  -h, --help            show this help message and exit
+  --weights {psnr-large,psnr-small,noise-cancel,gans}
 ----
