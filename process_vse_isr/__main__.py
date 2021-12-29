@@ -20,7 +20,7 @@ def init():
 
     @process_frame
     def sr_pixels(pixs, config):
-        return model.predict(pixs)
+        return model.predict(pixs[:,:,:3])
 
 def main():
     init()
