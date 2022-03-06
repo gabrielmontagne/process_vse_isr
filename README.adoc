@@ -8,13 +8,13 @@ using https://github.com/gabrielmontagne/xyy.
 
 image::example.png[Example]
 
-To use, 
-  create a TF 2.0.0 environment, 
-  install the requirements, 
-  install the requirements from xyy, 
-  install an editable version of xyy, 
+To use,
+  create a TF 2.0.0 environment,
+  install the requirements,
+  install the requirements from xyy,
+  install an editable version of xyy,
 
-then install the package locally, 
+then install the package locally,
 
 `python setup.py develop`
 
@@ -29,3 +29,19 @@ optional arguments:
   --weights {psnr-large,psnr-small,noise-cancel,gans}
 ----
 
+== The models,
+
+From the ISR docs,
+https://github.com/idealo/image-super-resolution#pre-trained-networks
+
+=== Basic model,
+
+RDN model, PSNR driven, choose the option weights='psnr-large' or weights='psnr-small' when creating a RDN model.
+
+=== GANS model
+
+RRDN model, trained with Adversarial and VGG features losses, choose the option weights='gans' when creating a RRDN model.
+
+=== Artefact Cancelling GANS model
+
+RDN model, trained with Adversarial and VGG features losses, choose the option weights='noise-cancel' when creating a RDN model.
