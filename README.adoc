@@ -8,7 +8,17 @@ using https://github.com/gabrielmontagne/xyy.
 
 image::example.png[Example]
 
-To use, install the dependencies from xyy, create a TF 2.0.0 environment and run the server:
+To use, 
+  create a TF 2.0.0 environment, 
+  install the requirements, 
+  install the requirements from xyy, 
+  install an editable version of xyy, 
+
+then install the package locally, 
+
+`python setup.py develop`
+
+and run the server:
 
 ----
 usage: process_vse_isr [-h]

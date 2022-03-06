@@ -1,3 +1,4 @@
+h5py=2.10
 ISR==2.2.0
 nose
 bumpversion
